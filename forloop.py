@@ -1,25 +1,48 @@
-#1.even numbers:
+#1.swapping three number:
 
-##stop=int(input("enter the stop value"))
-##for i in range(1,stop+1):
-##    if(i%2==0):
-##        print(i)
+####a=5
+####b=10
+####print("the value of a is",a)
+####print("the value of b is",b)
+####c=a
+####a=b
+####b=c
+####print("swapping three number a is",a)
+####print("swapping three number b is",b)
 
 
-#2.odd number:
+#2. swapping two number:
 
-##stop=int(input("enter the stop value"))
-##for i in range(1,stop+1):
-##    if(i%2!=0):
-##        print(i)
+##a=10
+##b=20
+##print("the value of a is",a)
+##print("the value of b is",b)
+##a,b=b,a
+##print("swapping number a is",a)
+##print("swapping number b is",b)
 
-#3. 3 divisible :
+
+#3.factorial of a number:
+
+##num=int(input("enter the stop value"))
+##factorial=1
+##for i in range(1,num+1):
+##    factorial=factorial*i
+##    print(factorial)
+##print("the fact number",factorial)
+
+
+
+#4. fibonacci series:
 
 stop=int(input("enter the stop value"))
-for i in range(3):
-    print(i)
-if(i%3==0):
-    print("good")
-
-        
-                
+a=0
+b=1
+print(a,end="")
+print(b,end="")
+for i in range(1,stop):
+    c=a+b
+    print(c,end="")
+    a=b
+    b=c
+    c=a
