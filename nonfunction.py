@@ -128,7 +128,18 @@ multiply(8,11)
 multiply(6,9,4,7)
 multiply(2,11,98)
 
+#nonlocal innerfunction:
 
+def sumnumbers():
+    num1=5
+    num2=10
+    def innerfunction():
+        nonlocal num1
+        num1=100
+        print("inner function is running:",num1)
+    innerfunction()
+    print(num1+num2)
+sumnumbers()
 
 
 
