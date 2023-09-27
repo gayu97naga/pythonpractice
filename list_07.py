@@ -38,9 +38,6 @@ if(len(a)>1):
 else:
     print("your list must be grater than 1")
 
-###sum of elements list:
-##a=[1,2,3,4,5]
-##sum=0
 
 
 
