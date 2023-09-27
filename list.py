@@ -69,8 +69,6 @@ for i in list:
 print(finallist)
 
 
-#sum,average of all numbers;
-
 list=[4,5,1,2,9,7,10,8]
 count=0
 for i in list:
@@ -78,6 +76,7 @@ for i in list:
 average=count/len(list)
 print("sum=",count)
 print("average=",average)
+
 
 
 
