@@ -92,4 +92,32 @@ print(math.copysign(5,1))
 
 #datetime modules:
 
+from datetime import datetime
+now=datetime.now()
+print("current datetime:",now)
+print("Type:",type(now))
+
+#convert datetime string format:
+
+from datetime import datetime
+now=datetime.now()
+datetime_str=now.strftime("%Y-%m-%d %H:%M:%S")
+print("datetime String:",datetime_str)
+
+
+#convert string to datetime in python:
+
+from datetime import datetime
+now=datetime.now()
+date=now.strftime("%d/%m/%Y")
+print("date String:",date)
+time=now.strftime("%H:%M:%S")
+print("time string:",time)
+year=now.strftime("%Y")
+print("year String:",year)
+month=now.strftime("%m")
+print("month String:",month)
+day=now.strftime("%d")
+print("day String:",day)
+
 
