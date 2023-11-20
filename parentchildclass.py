@@ -78,10 +78,55 @@
 #list1:
 #max_end3([1, 2, 3]) → [3, 3, 3]
 
-if nums[0] > nums[2]:
-        return [nums[0], nums[0], nums[0]]
-    else:
-        return [nums[2], nums[2], nums[2]]
+##if nums[0] > nums[2]:
+##        return [nums[0], nums[0], nums[0]]
+##    else:
+##        return [nums[2], nums[2], nums[2]]
+##
+
+
+
+class Car:
+     car_colour = "blue"         
+     car_brand = "BMW"        
+
+bob = Car()                          
+sam = Car()                         
+
+print("the brand of Bob's car is:",bob.car_brand)
+print("the Colour of Sam car is:", sam.car_colour) 
+
+
+class Student():
+
+    def __init__(self,name,mom,dad):
+
+        self.name = name
+        self.mom_name =mom
+        self.dad_name =dad
+
+    def father_name(self):
+        return self.dad_name 
+ 
+    @property
+    def mother_name(self):
+        return self.mom_name     
+
+sam = Student('Sam','Linda','Harry')         
+
+print(sam.name)
+print(sam.father_name())
+print(sam.mother_name)          
+
+
+
+
+
+
+
+
+
+
 
 
 
